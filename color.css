@@ -1,0 +1,24 @@
+::selection {
+  background: hotpink;
+  color: black;
+}
+
+:root {
+  color: #ccc;
+  background: #111;
+}
+
+:link {
+  color: hotpink;
+}
+
+:visited {
+  color: violet;
+}
+
+:focus {
+  text-shadow:
+    -5px 0 0 plum,
+    3px 3px 0 plum,
+    3px -3px 0 plum;
+}

@@ -1,0 +1,21 @@
+html {
+  font-size: calc(1ex + 8vmax);
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+math {
+  font-family: sans-serif;
+}
