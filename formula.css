@@ -1,11 +1,31 @@
 html {
-  font-size: calc(1ex + 8vmax);
+  font-family: monospace;
+  font-size: calc(1ex + 2vh + 3vw);
+}
+
+abbr {
+  font-weight: bold;
+}
+
+dt {
+  margin: 0;
+}
+
+dd {
+  margin: 0;
+}
+
+dd::first-letter {
+  font-weight: bold;
 }
 
 body {
-  display: flex;
-  flex-flow: column;
+  padding: 3vmin;
+  padding-block-start: 3vh;
+  padding-inline-start: 5vw;
+  padding-inline-end: 0;
   margin: auto;
+  overflow-wrap: anywhere;
 }
 
 main {
@@ -16,6 +36,12 @@ main {
   min-height: 100vh;
 }
 
-math {
-  font-family: sans-serif;
+figure {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+}
+
+nav {
+  margin-block: 6vh;
 }
