@@ -28,17 +28,7 @@ body {
   overflow-wrap: anywhere;
 }
 
-main {
-  align-items: center;
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  min-height: 100vh;
-}
-
 figure {
-  display: flex;
-  flex-flow: column;
   margin: auto;
 }
 
