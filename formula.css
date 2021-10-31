@@ -1,11 +1,10 @@
 html {
   font-family: monospace;
-  font-size: calc(1ex + 2vh + 3vw);
+  font-size: calc(1ch + 2vmin + 3vmax);
 }
 
 body {
-  padding: 3vmin;
-  padding-block-start: 3vh;
+  padding: 2vmin;
   padding-inline-start: 5vw;
   padding-inline-end: 0;
   margin: auto;
@@ -17,14 +16,12 @@ figure {
 }
 
 nav {
+  font-weight: bold;
   margin-block: 5vh;
 }
 
-abbr {
-  font-weight: bold;
-}
-
 dt {
+  font-weight: bold;
   margin: 0;
   margin-block: 5vh;
 }
