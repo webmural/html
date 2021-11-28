@@ -16,6 +16,7 @@ figure {
 }
 
 nav {
+  font-size: max(1rem, 44px);
   font-weight: bold;
   margin-block: 5vh;
 }
