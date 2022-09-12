@@ -1,6 +1,6 @@
 html {
   font-family: monospace;
-  font-size: calc(1ch + 2vmin + 3vmax);
+  font-size: max(1em, 3vmin + 3vmax);
 }
 
 body {
@@ -11,12 +11,20 @@ body {
   overflow-wrap: anywhere;
 }
 
+p {
+  line-height: 1.6;
+}
+
 figure {
   margin: auto;
 }
 
+a {
+  touch-action: manipulation;
+}
+
 nav {
-  font-size: max(1rem, 44px);
+  font-size: max(1.6rem, 44px);
   font-weight: bold;
   margin-block: 5vh;
 }
@@ -38,4 +46,5 @@ dd::first-letter {
 :focus {
   outline-style: dashed;
   outline-width: thick;
+  text-decoration-style: dotted;
 }
