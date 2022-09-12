@@ -1,24 +1,24 @@
 ::selection {
-  background: hotpink;
-  color: black;
+  background: #529;
+  color: #ed6;
 }
 
 :root {
-  color: #ccc;
-  background: #111;
+  color: #111;
+  background: #ed6;
+  text-shadow: -1ex -1ex 3em;
 }
 
-:link {
-  color: hotpink;
+:any-link {
+  color: #111;
+  outline-color: indigo;
+  background: #fa8bee;
 }
 
-:visited {
-  color: violet;
+:any-link:not(:focus) {
+  box-shadow: 0 0 3ch 1ch #dc9;
 }
 
-:focus {
-  text-shadow:
-    -5px 0 0 plum,
-    3px 3px 0 plum,
-    3px -3px 0 plum;
+:any-link:active {
+  text-shadow: 0 -1vh 0, 0 1vh 0;
 }
