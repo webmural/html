@@ -26,7 +26,7 @@ a {
 nav {
   font-size: max(1.6rem, 44px);
   font-weight: bold;
-  margin-block: 5vh;
+  margin: auto;
 }
 
 dt {
